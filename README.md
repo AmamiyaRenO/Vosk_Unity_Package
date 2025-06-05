@@ -50,6 +50,18 @@ public class VoskExample : MonoBehaviour
 }
 ```
 
+### Switching Models at Runtime
+
+You can change the recogniser model and key phrases without restarting the
+application by calling `RestartRecognizer` with a preloaded `Model` instance:
+
+```csharp
+// assuming `speech` is an initialised VoskSpeechToText component
+var newModel = new Model(pathToNewModel);
+var phrases = new List<string> { "hello", "world" };
+speech.RestartRecognizer(newModel, phrases);
+```
+
 For more information on models and Vosk itself see the [Vosk documentation](https://github.com/alphacep/vosk-api).
 
 ## License

@@ -247,12 +247,40 @@ public class VoskSpeechToText : MonoBehaviour
 		}
 	}
 
-	//Wait until microphones are initialized
-	private IEnumerator WaitForMicrophoneInput()
-	{
-		while (Microphone.devices.Length <= 0)
-			yield return null;
-	}
+        //Wait until microphones are initialized
+        private IEnumerator WaitForMicrophoneInput()
+        {
+                while (Microphone.devices.Length <= 0)
+                        yield return null;
+        }
+
+        /// <summary>
+        /// Restart the recognizer with a new model and optional key phrases.
+        /// </summary>
+        /// <param name="newModel">Preloaded Vosk model to use.</param>
+        /// <param name="newKeyPhrases">List of key phrases for the new model.</param>
+        public void RestartRecognizer(Model newModel, List<string> newKeyPhrases)
+        {
+                // Stop current recording if needed
+                if (VoiceProcessor.IsRecording)
+                {
+                        _running = false;
+                        VoiceProcessor.StopRecording();
+                }
+
+                // Dispose existing recognizer and model
+                _recognizer?.Dispose();
+                _recognizer = null;
+                _model?.Dispose();
+
+                _model = newModel;
+                KeyPhrases = newKeyPhrases ?? new List<string>();
+
+                // allow new recognizer to be created in ThreadedWork
+                _recognizerReady = false;
+
+                ToggleRecording();
+        }
 
 	//Can be called from a script or a GUI button to start detection.
 	public void ToggleRecording()
