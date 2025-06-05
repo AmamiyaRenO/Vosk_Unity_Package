@@ -51,3 +51,7 @@ public class VoskExample : MonoBehaviour
 ```
 
 For more information on models and Vosk itself see the [Vosk documentation](https://github.com/alphacep/vosk-api).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
