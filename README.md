@@ -50,6 +50,40 @@ public class VoskExample : MonoBehaviour
 }
 ```
 
+## Hello World Example
+
+The following example shows how to detect the word `"hello"` and print `"hello world"` to the console.
+
+```csharp
+using UnityEngine;
+
+public class HelloWorldExample : MonoBehaviour
+{
+    public VoskSpeechToText speech;
+
+    void Start()
+    {
+        speech.OnTranscriptionResult += OnResult;
+        speech.StartVoskStt(startMicrophone: true);
+    }
+
+    void OnResult(string json)
+    {
+        var result = new RecognitionResult(json);
+        foreach (var phrase in result.Phrases)
+        {
+            if (phrase.Text.ToLower().Contains("hello"))
+            {
+                Debug.Log("hello world");
+                break;
+            }
+        }
+    }
+}
+```
+
+Attach this component alongside `VoskSpeechToText`. When you say `"hello"` the console will output `"hello world"`.
+
 For more information on models and Vosk itself see the [Vosk documentation](https://github.com/alphacep/vosk-api).
 
 ## License
