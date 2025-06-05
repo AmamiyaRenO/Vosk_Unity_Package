@@ -31,8 +31,9 @@ You can assign a different model by changing `ModelPath` in the inspector or thr
 
 1. Add the **VoskSpeechToText** component to a GameObject in your scene.
 2. Place a Vosk model archive into `Assets/StreamingAssets/` and assign its filename to `ModelPath`.
-3. Call `StartVoskStt` (optionally with `startMicrophone: true`) to initialise the recogniser.
-4. Subscribe to `OnTranscriptionResult` to receive the recognised text.
+3. A `VoiceProcessor` component is required for microphone input. If one isn't present on the same GameObject, `VoskSpeechToText` adds it automatically.
+4. Call `StartVoskStt` (optionally with `startMicrophone: true`) to initialise the recogniser.
+5. Subscribe to `OnTranscriptionResult` to receive the recognised text.
 
 ```csharp
 using UnityEngine;

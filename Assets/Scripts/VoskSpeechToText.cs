@@ -14,12 +14,11 @@ using Vosk;
 
 public class VoskSpeechToText : MonoBehaviour
 {
-	[Tooltip("Location of the model, relative to the Streaming Assets folder.")]
-	public string ModelPath = "vosk-model-small-ru-0.22.zip";
+        [Tooltip("Location of the model, relative to the Streaming Assets folder.")]
+        public string ModelPath = "vosk-model-small-ru-0.22.zip";
 
-	[Tooltip("The source of the microphone input.")]
-
-	public VoiceProcessor VoiceProcessor;
+        [Tooltip("The source of the microphone input.")]
+        public VoiceProcessor VoiceProcessor;
 	[Tooltip("The Max number of alternatives that will be processed.")]
 	public int MaxAlternatives = 3;
 
@@ -76,6 +75,18 @@ public class VoskSpeechToText : MonoBehaviour
 
 	//Thread safe queue of resuts
 	private readonly ConcurrentQueue<string> _threadedResultQueue = new ConcurrentQueue<string>();
+        void Awake()
+        {
+                if (VoiceProcessor == null)
+                {
+                        VoiceProcessor = GetComponent<VoiceProcessor>();
+                        if (VoiceProcessor == null)
+                        {
+                                VoiceProcessor = gameObject.AddComponent<VoiceProcessor>();
+                        }
+                }
+        }
+
 
 
 
