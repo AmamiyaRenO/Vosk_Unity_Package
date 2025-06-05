@@ -1,0 +1,298 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.48f1c1 (06fbdfbf16e3) revision 457695'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32491 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unityeditor\2020.3.48f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unityproject/Vosk_Unity_Package
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58131
+Successfully changed project path to: D:/unityproject/Vosk_Unity_Package
+D:/unityproject/Vosk_Unity_Package
+Using Asset Import Pipeline V2.
+Player connection [2852] Host "[IP] 192.168.56.1 [Port] 3221442848 [Flags] 2 [Guid] 3771894896 [EditorId] 3771894896 [Version] 1048832 [Id] WindowsEditor(7,Hao) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2852] Host "[IP] 192.168.56.1 [Port] 3221442848 [Flags] 2 [Guid] 3771894896 [EditorId] 3771894896 [Version] 1048832 [Id] WindowsEditor(7,Hao) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 13.68 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.48f1c1 (06fbdfbf16e3)
+[Subsystems] Discovering subsystems at path D:/unityeditor/2020.3.48f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unityproject/Vosk_Unity_Package/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   
+    VRAM:     7957 MB
+    Driver:   32.0.15.7283
+Initialize mono
+Mono path[0] = 'D:/unityeditor/2020.3.48f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unityeditor/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unityeditor/2020.3.48f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unityeditor/2020.3.48f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000505 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 15.33 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (289ms)
+		BeginReloadAssembly (33ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (224ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (73ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (15ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (38ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (499ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.0 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 1.549300 ms (FindLiveObjects: 0.075700 ms CreateObjectMapping: 0.018300 ms MarkObjects: 1.402000 ms  DeleteObjects: 0.052600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ThirdParty/Zip/Ionic.Zip.Unity.dll
+  artifactKey: Guid(42857c49691ba7c4f979e974a1e3cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Zip/Ionic.Zip.Unity.dll using Guid(42857c49691ba7c4f979e974a1e3cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0506ccbfba9740532bc9bf3b83c3a5b1') in 0.013936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007150 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Android/libvosk.so
+  artifactKey: Guid(bf8767df9801049b0854c04d7a6e15c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Android/libvosk.so using Guid(bf8767df9801049b0854c04d7a6e15c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42393d007a11380cbe4776e313395eb') in 0.010075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004375 seconds.
+  path: Assets/ThirdParty/SimpleJson/LICENSE.txt
+  artifactKey: Guid(27cc02e8a23eabd4081986c756536662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/SimpleJson/LICENSE.txt using Guid(27cc02e8a23eabd4081986c756536662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53b5e9f217813edc2236c1dcca0b95c') in 0.005989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001415 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(d82af4f5510f642628ed817058679113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(d82af4f5510f642628ed817058679113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9561412cfe9e370a91d29db741a752') in 0.001136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011440 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Windows/libvosk.dll
+  artifactKey: Guid(44ed210b9c2661943983e714c5fd7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Windows/libvosk.dll using Guid(44ed210b9c2661943983e714c5fd7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77ebe4c1420aee1bacafeecccc55e76') in 0.000922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002673 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Android
+  artifactKey: Guid(c9b43f4da9908496eaff90760c2e8fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Android using Guid(c9b43f4da9908496eaff90760c2e8fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c27ecac838bd5982434ebca818d088') in 0.000814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002765 seconds.
+  path: Assets/ThirdParty/SimpleJson/SimpleJSON.cs
+  artifactKey: Guid(36a8a65d3a69edb4c95cdb81424bfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/SimpleJson/SimpleJSON.cs using Guid(36a8a65d3a69edb4c95cdb81424bfa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eb5090a050ef1e95ef5fd9fe414857') in 0.005878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002826 seconds.
+  path: Assets/Scripts/VoiceProcessor.cs
+  artifactKey: Guid(cf39116cc6db44d47b2eaf534e0f6682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VoiceProcessor.cs using Guid(cf39116cc6db44d47b2eaf534e0f6682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe71daaa25ae049a8120bca39a7452b') in 0.000938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002846 seconds.
+  path: Assets/ThirdParty/Vosk/VoskPINVOKE.cs
+  artifactKey: Guid(e7ff7da01cc227b4daafd081f6e48cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/VoskPINVOKE.cs using Guid(e7ff7da01cc227b4daafd081f6e48cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83723e152f120c3f5ea74895fc27b97') in 0.000978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002748 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Windows/libwinpthread-1.dll
+  artifactKey: Guid(03110fb52664280468efaebbc8468eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Windows/libwinpthread-1.dll using Guid(03110fb52664280468efaebbc8468eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f4adc1290e7240819c1582f98ab873') in 0.001334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005215 seconds.
+  path: Assets/ThirdParty/Vosk/SpkModel.cs
+  artifactKey: Guid(fb27213c7176f0946b0efa6700d4bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/SpkModel.cs using Guid(fb27213c7176f0946b0efa6700d4bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31c3084870b7963a21ba7722061ba27') in 0.001688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004180 seconds.
+  path: Assets/ThirdParty/Vosk/VoskRecognizer.cs
+  artifactKey: Guid(f87948c4963807c40ab53ff8eea26a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/VoskRecognizer.cs using Guid(f87948c4963807c40ab53ff8eea26a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49b29d0207d4bb7a13ead184dbd9c8a') in 0.002347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010237 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Android64/libvosk.so
+  artifactKey: Guid(c33ec25dc7ba245618490c7d9a5929fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Android64/libvosk.so using Guid(c33ec25dc7ba245618490c7d9a5929fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9659148325235ff777e510255fcddc3') in 0.002581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003059 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/OSX
+  artifactKey: Guid(53ff57bfea47a47409d61251ecf69821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/OSX using Guid(53ff57bfea47a47409d61251ecf69821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b419dc47a57eaffd26d698e5c0588d') in 0.003673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032990 seconds.
+  path: Assets/ThirdParty/Vosk/Model.cs
+  artifactKey: Guid(b506055e19050764ea0ab51a5e722b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Model.cs using Guid(b506055e19050764ea0ab51a5e722b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd96127e14ff91d61325fbf4078109a5') in 0.002864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020922 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Windows/libstdc++-6.dll
+  artifactKey: Guid(e875be6982bcf52439cebbfd1c0b93d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Windows/libstdc++-6.dll using Guid(e875be6982bcf52439cebbfd1c0b93d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac012a414624f87a1488304c283855c') in 0.002587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008474 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins
+  artifactKey: Guid(89b11e28bb1de4c51ae802d028dbab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins using Guid(89b11e28bb1de4c51ae802d028dbab21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1c11526156d2ac6c657f05c90d9583') in 0.002195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003477 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Windows
+  artifactKey: Guid(2b47a9b20e6672c4f9255a2c1cce810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Windows using Guid(2b47a9b20e6672c4f9255a2c1cce810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4fe22f80e3793afa6b7ed0453af7b9') in 0.001843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007148 seconds.
+  path: Assets/ThirdParty/Zip/Ionic.Zip.Unity.XML
+  artifactKey: Guid(3ba69bfef974f2a4da3e80ca5a95200b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Zip/Ionic.Zip.Unity.XML using Guid(3ba69bfef974f2a4da3e80ca5a95200b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540c3468da8bc7cb8d73d61ae861405e') in 0.009099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005446 seconds.
+  path: Assets/ThirdParty
+  artifactKey: Guid(3a58f7d7acf944d9fac1037bfdaf2a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty using Guid(3a58f7d7acf944d9fac1037bfdaf2a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9f23338de7526691382b831f62003d') in 0.002152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014431 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/OSX/libvosk.dylib
+  artifactKey: Guid(562d49368de3c493fac7ca2cddda3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/OSX/libvosk.dylib using Guid(562d49368de3c493fac7ca2cddda3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a00f7c653f7ee3e8138c02f1756893') in 0.005933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005289 seconds.
+  path: Assets/ThirdParty/Vosk/Vosk.cs
+  artifactKey: Guid(e373e1c45123a4a479b7d6ba96468dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Vosk.cs using Guid(e373e1c45123a4a479b7d6ba96468dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29bfb234d085205bf57122b00b9a177') in 0.002216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006039 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Windows/libgcc_s_seh-1.dll
+  artifactKey: Guid(1c858c0bae13e574fbedb6cc6932c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Windows/libgcc_s_seh-1.dll using Guid(1c858c0bae13e574fbedb6cc6932c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba9ef460cb0ae3e9d27563f3e259689') in 0.002178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006686 seconds.
+  path: Assets/ThirdParty/Zip/License.txt
+  artifactKey: Guid(62b9904709bdeae449a05f7d03af7232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Zip/License.txt using Guid(62b9904709bdeae449a05f7d03af7232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201b2b7e9f34dd6c14e382cab29d90b4') in 0.003344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003609 seconds.
+  path: Assets/ThirdParty/Zip
+  artifactKey: Guid(379f47df4115346b285580de33199190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Zip using Guid(379f47df4115346b285580de33199190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b81e7a0da17b4b1a602326d2d4c1ab6') in 0.003808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003464 seconds.
+  path: Assets/ThirdParty/Vosk
+  artifactKey: Guid(04ec0fce60e414d348c42d536d7e567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk using Guid(04ec0fce60e414d348c42d536d7e567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241168c9160ca1c6d56a72b1da10d251') in 0.002449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004008 seconds.
+  path: Assets/ThirdParty/Vosk/Plugins/Android64
+  artifactKey: Guid(6d2ced74e14a5459f93f7b2ee1700a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Vosk/Plugins/Android64 using Guid(6d2ced74e14a5459f93f7b2ee1700a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e863d3ad2cbaac9803b64fcbe3d5f66') in 0.002141 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
